@@ -1,0 +1,16 @@
+name: TutorialPlugin
+version: '1.0-SNAPSHOT'
+main: com.github.bb45dev.tutorialplugin.TutorialPlugin
+description: "§e初めて作ったプラグインです。"
+api-version: '1.20'
+commands:
+  debug:
+    usage: "/debug <text>"
+    description: "デバッグをするコマンド"
+    permission: tutorialplugin.commands.debug
+  sum:
+    usage: "/<command> <number> <number>"
+    description: "足し算用のコマンドです"
+  gui: #ここから下に新規追加
+   usage: "/<command>"
+   description: "チェストGUIを開きます。"
